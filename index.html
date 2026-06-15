@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <h1 style="text-align: center; color : blue">PasswordGenerator!...</h1>
+
+    <!-- <div class="password-container">
+        <form action="" class="pass-gen">
+            <input type="password" placeholder="get a random password...!" class="input-bar" name="genrate" >
+            &nbsp;
+            <i class="fa-regular fa-copy copy"></i>
+            <span class="copied-text">Copied!</span>
+             &nbsp;&nbsp; -->
+             <!-- <br><br> -->
+            <!-- <button class="generate">Generate Password</button> -->
+        <!-- </form> -->
+    <!-- </div> -->
+    <!-- <p>password</p> --> 
+
+    <div class="pass-cintainer">
+        <div class="pass-input">
+            <input type="text" placeholder="gat your random pass" name="pass" class="pass-data">
+            <i class="fa-regular fa-copy copy"></i>
+            <span class="copyText">copied</span>
+        </div>
+        <div class="data-container">
+            <input type="checkbox" id="capital"> atLeast one capital Alphabets should be there
+            <br>
+            <input type="checkbox" id="small"> atLeast one small Alphabet letter should be there
+            <br>
+            <input type="checkbox" id="digit"> atLeast one digit should be there
+            <br>
+            <input type="checkbox" id="special"> atLeast one speacial character should be there
+        </div>
+        
+        <div class="gen-btn">
+            <button class="gen">Genrate Password</button>
+            <button style="margin-left: 20px; width: 100px; height : 30px; background-color : orange; font-size : 20px; border-radius : 5px" class="reset">reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
